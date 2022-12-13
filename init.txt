@@ -3,8 +3,8 @@ nano /etc/mysql/mysql.conf.d/mysqld.cnf
 
 mysql-ctl cli
 
-CREATE USER 'peter'@'%' IDENTIFIED BY 'abcd1234#';
-GRANT ALL PRIVILEGES ON *.* TO 'peter'@'%';
+CREATE USER 'sandro'@'%' IDENTIFIED BY '791300';
+GRANT ALL PRIVILEGES ON *.* TO 'sandro'@'%';
 
 SELECT * FROM mysql.user;
 quit;
